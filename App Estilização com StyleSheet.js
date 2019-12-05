@@ -15,7 +15,7 @@ export default () => {
 }
 const styleRD = StyleSheet.create({
   pagina:{
-    margin:80,
+    margin:100,
     width:200,
     height:200,
     backgroundColor:'#CC3439',
