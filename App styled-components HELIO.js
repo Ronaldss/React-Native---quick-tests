@@ -11,7 +11,7 @@ class Saida extends Component{
 
   const Button = styled.Button`
   background: transparent;
-  border-radius: 3px;
+  border-radius: 30px;
   border: 2px solid palevioletred;
   color: palevioletred;
   margin: 0.5em 1em;
@@ -24,8 +24,8 @@ class Saida extends Component{
 `;
 
 const Container = styled.View`
-    justify-content: center;
-   text-align: center;
+  justify-content: center;
+  text-align: center;
 `;
 
     return(
@@ -34,6 +34,7 @@ const Container = styled.View`
 
         <Button title='Ronald, vc é o que do burro?'/>
         <Text>teste ok!</Text>
+        <Button title='Colega de trabalho!'/>
 
         </Container>
 

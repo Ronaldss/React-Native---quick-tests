@@ -7,9 +7,9 @@ import { SafeAreaView, Text, StyleSheet } from 'react-native';
 export default () => {
   return(
     <SafeAreaView style={styleRD.pagina}> 
-      <Text style={{color:'#FFF', fontSize:20, textAlign:"center"}}>Teste funcionou!</Text>
+      <Text style={{color:'#FFF', fontSize:20, textAlign:"center"}}>Teste funcionou!!!</Text>
       <Text style={styleRD.texto}>RonaldsS</Text>
-      <Text style={[styleRD.texto,{fontSize:22}]}>Análise completa</Text>
+      <Text style={[styleRD.texto,{fontSize:22}]}>Análise completa.</Text>
     </SafeAreaView>
   );
 }

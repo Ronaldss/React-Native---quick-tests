@@ -1,6 +1,6 @@
 // styled-components
 import React, { Component } from 'react';
-import { QualquerTexto, Pagina } from './estilo'
+import { QualquerTexto, Botao, Pagina, Circulo } from './estilo'
 // Impressão na tela
 export default () => {
   return(
@@ -13,6 +13,8 @@ export default () => {
       <QualquerTexto cor="orange">Zmax</QualquerTexto>
       <QualquerTexto cor="yellow">Ifal</QualquerTexto>
       <QualquerTexto cor="pink">React-native</QualquerTexto>
+      <Circulo><QualquerTexto cor="brown">Teste</QualquerTexto></Circulo>
+      <Botao title='teste'/>
     </Pagina>
   );
 }
