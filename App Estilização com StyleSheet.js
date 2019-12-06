@@ -1,29 +1,24 @@
 // Estilização com StyleSheet
 
 import React, { Component } from 'react';
-import { SafeAreaView, Text, StyleSheet } from 'react-native';
+import { SafeAreaView, Text, View } from 'react-native';
+import { Estilos } from './estilo2';
 
 
 export default () => {
   return(
-    <SafeAreaView style={styleRD.pagina}> 
-      <Text style={{color:'#FFF', fontSize:20, textAlign:"center"}}>Teste funcionou!!!</Text>
-      <Text style={styleRD.texto}>RonaldsS</Text>
-      <Text style={[styleRD.texto,{fontSize:22}]}>Análise completa.</Text>
+    <SafeAreaView style={Estilos.pagina}> 
+      <Text style={Estilos.titulo}>Título</Text>
+      <Text style={Estilos.texto}>RonaldsS</Text>
+      <Text style={[Estilos.texto,{fontSize:22}]}>Análise completa.</Text>
+      
+      <View style={Estilos.pagina2}>
+        <Text>O Ronald é bacana</Text>
+      </View>    
     </SafeAreaView>
+
+    
+    
+    
   );
 }
-const styleRD = StyleSheet.create({
-  pagina:{
-    margin:100,
-    width:200,
-    height:200,
-    backgroundColor:'#CC3439',
-    textAlign:"center"
-  },
-  texto:{
-    color:'#1CF',
-    fontSize:18,
-    textAlign: "center"
-  }
-});
