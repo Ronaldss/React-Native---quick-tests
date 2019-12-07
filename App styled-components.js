@@ -1,6 +1,8 @@
 // styled-components
 import React, { Component } from 'react';
 import { QualquerTexto, Botao, Pagina, Circulo } from './estilo'
+
+
 // Impressão na tela
 export default () => {
   return(
