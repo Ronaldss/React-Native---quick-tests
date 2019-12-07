@@ -1,17 +1,27 @@
 import { StyleSheet } from 'react-native';
 
 const Estilos = StyleSheet.create({
-    pagina:{
-        margin:100,
-        width:200,
-        height:200,
-        backgroundColor:'#CC3439',
-        textAlign:"center"
+      fundo:{
+        flex:1,
+        width:355,
+        // height:200,
+        backgroundColor:'#4B0082',
+        textAlign:"center",
+        flexDirection:'row'
+      },
+      pagina1:{
+        flex:2,
+        width:100,
+        height:100,
+        backgroundColor:'yellow',
+        marginRight:2
       },
       pagina2:{
-        width:"100%",
+        flex:2,
+        width:100,
         height:100,
-        backgroundColor:'yellow'
+        backgroundColor:'orange',
+        marginRight:2
       },            
       titulo:{
         color:'black',
