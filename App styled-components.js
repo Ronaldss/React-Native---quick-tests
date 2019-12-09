@@ -14,6 +14,7 @@ export default () => {
       <QualquerTexto cor="red">Santos</QualquerTexto>
       <QualquerTexto cor="orange">Zmax</QualquerTexto>
       <QualquerTexto cor="yellow">Ifal</QualquerTexto>
+      <QualquerTexto cor="brown">Marron</QualquerTexto>
       <QualquerTexto cor="pink">React-native</QualquerTexto>
       <Circulo><QualquerTexto cor="brown">Teste</QualquerTexto></Circulo>
       <Botao title='teste'/>
