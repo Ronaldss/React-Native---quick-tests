@@ -3,7 +3,7 @@
 import React, { Components } from 'react';
 import { View } from 'react-native';
 
-export default class FlexBasico2 extends Components {
+export default class FlexBasico2 extends Component {
   render() {
     return(
       // Como utilizaremos flex horizontal em nossos herdeios,
