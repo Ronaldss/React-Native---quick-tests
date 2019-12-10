@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
 function JustifyContent() {
     return(
@@ -9,7 +9,7 @@ function JustifyContent() {
         // os descendentes serem alinhados pelo começo, centro, final, ou alargados para ocupar tudo. As opções 
         // disponíveis são respectivamente flex-start(começo), center(centro), flex-end(fim), e stretch(alargado).
         // Para que o stretch tenha algum efeito, os descendentes não devem ter dimensão fixa ao longo do eixo secundário. 
-        // No exemplo a seguir, definir alignItems: stretch não faz nada até que o width: 50 seja removido dos descendentes.
+        // No exemplo a seguir, definir alignItems: stretch não faz nada até que o width:100 seja removido dos descendentes.
 
         // flexDirection: definiu nosso herdeiro na vertical
         // justifyContent: alocou nossos herdeiros ao centro do começo
@@ -20,12 +20,13 @@ function JustifyContent() {
                 flex:2,
                 flexDirection:'column',
                 justifyContent:'center',
-                alignItems:'center'  // <-- Motivo da aula.
+                alignItems:'center'  // <-- Motivo da aula.  Vc tbm pode usar o alignItems:'stretch' para esticar. Remova os width dos filhos.
             }}>
                 <View style={{width:100, height:100, backgroundColor:'powderblue', borderTopLeftRadius:15, borderTopRightRadius:15}} />
                 <View style={{width:100, height:100, backgroundColor:'skyblue'}} />
                 <View style={{width:100, height:100, backgroundColor:'steelblue', borderBottomEndRadius:15, borderBottomLeftRadius:15}} />
             </View>
+            <Text>RonaldsS</Text>
         </View>
     );
 };
