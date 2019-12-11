@@ -12,9 +12,9 @@ export default class FlexDirectionBasic extends Component {
                 <View style={Ronald.quatro}/>
                 <View style={Ronald.cinco} />
                 <View style={Ronald.seis} />
-                <View style={{width:100, height:100, backgroundColor: 'yellow'}} />
-                <View style={{width:100, height:100, backgroundColor: '#5c1596'}} />
-                <View style={{width:100, height:100, backgroundColor: '#1ddee5'}} />
+                <View style={Ronald.sete} />
+                <View style={Ronald.oito} />
+                <View style={{width:100, height:100, backgroundColor: '#1ddee5'}} /> 
                 <View style={{width:100, height:100, backgroundColor: '#e2e51d'}} />
                 <View style={{width:100, height:100, backgroundColor: '#23ef3b'}} />
                 <View style={{width:100, height:100, backgroundColor: '#246ff2'}} />

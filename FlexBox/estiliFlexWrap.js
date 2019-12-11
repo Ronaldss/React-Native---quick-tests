@@ -37,5 +37,15 @@ const Ronald = StyleSheet.create({
         height:100, 
         backgroundColor: 'green'
     },
+    sete:{
+        width:100, 
+        height:100, 
+        backgroundColor: 'yellow'
+    },
+    oito:{
+        width:100, 
+        height:100, 
+        backgroundColor: '#5c1596'
+    },
 });
 export { Ronald };
