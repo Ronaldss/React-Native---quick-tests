@@ -22,5 +22,20 @@ const Ronald = StyleSheet.create({
         height:100, 
         backgroundColor:'steelblue'  
     },
+    quatro:{
+        width:100, 
+        height:100, 
+        backgroundColor:'red'
+    },
+    cinco:{
+        width:100, 
+        height:100, 
+        backgroundColor: 'pink'
+    },
+    seis:{
+        width:100, 
+        height:100, 
+        backgroundColor: 'green'
+    },
 });
 export { Ronald };
