@@ -4,8 +4,6 @@ const Estilos = StyleSheet.create({
       fundo:{
         flex:1,
         flexWrap:'wrap',
-        width:355,
-        // height:200,
         backgroundColor:'#4B0082',
         textAlign:"center",
         flexDirection:'row'
@@ -21,7 +19,14 @@ const Estilos = StyleSheet.create({
         height:100,
         backgroundColor:'orange',
         marginRight:2
-      },            
+      },  
+      pagina3:{
+        width:100,
+        height:100,
+        backgroundColor:'#6495ED',
+        marginRight:2,
+        borderRadius:13
+      },           
       titulo:{
         color:'black',
         fontSize:20,

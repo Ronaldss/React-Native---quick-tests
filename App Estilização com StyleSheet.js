@@ -15,18 +15,25 @@ export default () => {
       
       <View style={Estilos.pagina1}></View>  
       <View style={Estilos.pagina2}></View>
+      <View style={Estilos.pagina3}></View>
       <View style={Estilos.pagina1}></View>
       <View style={Estilos.pagina2}></View>
+      <View style={Estilos.pagina3}></View>
       <View style={Estilos.pagina1}></View>
       <View style={Estilos.pagina2}></View>
+      <View style={Estilos.pagina3}></View>
       <View style={[Estilos.pagina1, {backgroundColor:'red'}]}></View>
       <View style={Estilos.pagina2}></View>
+      <View style={Estilos.pagina3}></View>
       <View style={Estilos.pagina1}></View>
       <View style={Estilos.pagina2}></View>
+      <View style={Estilos.pagina3}></View>
       <View style={Estilos.pagina1}></View>
       <View style={Estilos.pagina2}></View>
+      <View style={Estilos.pagina3}></View>
       <View style={Estilos.pagina1}></View>
       <View style={Estilos.pagina2}></View>
+      <View style={Estilos.pagina3}></View>
       <View style={Estilos.pagina1}></View>
     </SafeAreaView>
 
