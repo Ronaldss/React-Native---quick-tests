@@ -12,20 +12,22 @@ const Estilos = StyleSheet.create({
         width:100,
         height:100,
         backgroundColor:'yellow',
-        marginRight:2
+        marginRight:2,
+        borderRadius:100
       },
       pagina2:{
         width:100,
         height:100,
         backgroundColor:'orange',
-        marginRight:2
+        marginRight:2,
+        borderRadius:100
       },  
       pagina3:{
         width:100,
         height:100,
         backgroundColor:'#6495ED',
         marginRight:2,
-        borderRadius:13
+        borderRadius:100
       },           
       titulo:{
         color:'black',
